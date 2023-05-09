@@ -1,0 +1,50 @@
+<html>
+  <!--Head tag-->
+  <head>
+    <title>Molecules List</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="moleculesListScript.js"></script>
+  </head>
+  
+  <!--Body tag-->
+  <body>
+    <div class="navBar">
+      <a href="index.html">Home</a>
+      <a href="editElements.html">Add/Remove Element</a>
+      <a href="uploadSDF.html">Upload File</a>
+      <a href="moleculesList.html">Molecules List</a>
+    </div>
+    
+    <header>
+      <h1>List of Molecules</h1>
+    </header>
+
+    <div class="container3">
+      <div class="molList">
+        <h2>Molecules</h2>
+        <form>
+          <label>Select a Molecule:</label>
+          <select id="moleculeList"></select>
+          <button id="displayButton" type="submit">Display Molecule</button>
+        </form>
+      </div>
+    </div>
+    <div class="displayContainer">
+      <div class="molDisplay">
+        <div id="moleculeContainer"></div>
+        <label id="moleculeDisplayed"></label>
+        <label>Select the Axis for rotation:</label>
+        <select id="axisList">
+          <option value="x">X Axis</option>
+          <option value="y">Y Axis</option>
+          <option value="z">Z Axis</option>
+        </select>
+        <label id="degreeValue">Degree: 0</label>
+        <label>Slide the slider to rotate image</label>
+        <input type="range" min="-360" max="360" value="0" id="degSlider">
+      </div>
+    </div>
+  </body>
+</html>

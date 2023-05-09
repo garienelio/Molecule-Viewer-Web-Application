@@ -1,0 +1,405 @@
+body {
+    margin: 0px;
+    background-color: #f6f7fa;
+}
+  
+header {
+    background-image: linear-gradient(to bottom right, #000b31, #0149c1);
+    color: #ffffff;
+    padding: 12px;
+    font-family: arial, sans-serif;
+    /* margin-top: 35px; */
+}
+  
+header h1 {
+    margin-left: 10px;
+}
+  
+h2 {
+    font-family: arial, sans-serif;
+}
+  
+.navBar {
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    /* position: fixed; */
+    width: 100%;
+    /* top: 0; */
+    /* z-index: 1; */
+}
+  
+.navBar a {
+    text-decoration: none;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: arial, sans-serif;
+    font-weight : bold;
+}
+  
+.navBar a:hover {
+    color: white;
+    background-color: #0257e5;
+    transition-duration: 0.25s;
+}
+  
+/* Styles for Main Page Starts Here */
+.mainOption {
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+    width:750px;
+    padding: 15px 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:0 0 10px 3px rgba(191,191,191,0.5);
+}
+  
+.mainOption h2{
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    color: black;
+}
+  
+.mainOption a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    background-color: #0257e5;
+    color: white;
+}
+  
+.mainOption a:hover {
+    background-color: #2978fc;
+    transition-duration: 0.3s;
+}
+  
+/* Styles for Add/Remove Element Page Starts Here */
+#b1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: white;
+    background-color: #0257e5;
+    border: 2px solid #0257e5;
+    border-radius:10px;
+    text-align: center;
+    padding:10px;
+    width: 250px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    font-weight : bold;
+}
+  
+#b1:hover {
+    background-color: #2978fc;
+    border: 2px solid #2978fc;
+    transition-duration: 0.3s;
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    width:750px;
+    padding: 15px 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:0 0 10px 3px rgba(191,191,191,0.5);
+}
+  
+.addingElement h2{
+    margin-top: 0px;
+    padding: 0px;
+}
+  
+.addingElement label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: arial, sans-serif;
+}
+  
+.addingElement input[type="text"], input[type="number"] {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ddd;
+    border-radius:10px;
+    box-shadow:0 0 10px 3px rgba(191,191,191,0.5);
+    font-size: 15px;
+}
+  
+.addingElement input[type="color"] {
+    display: block;
+    margin-bottom: 10px;
+    width: 45px;
+    height: 45px;
+}
+  
+.addingElement button {
+    display: block;
+    color: white;
+    margin: auto;
+    background-color: #00A36C;
+    border: 2px solid #00A36C;
+    border-radius:10px;
+    text-align: center;
+    padding:10px;
+    width: 150px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    font-weight : bold;
+}
+  
+.addingElement button:hover {
+    display: block;
+    color: white;
+    transition-duration: 0.3s;
+    border: 2px solid #008256;
+    background-color: #008256;
+}
+  
+.removingElement h2{
+    margin-top: 0px;
+    padding: 0px;
+}
+  
+.removingElement label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: arial, sans-serif;
+}
+  
+.removingElement input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ddd;
+    border-radius:10px;
+    box-shadow:0 0 10px 3px rgba(191,191,191,0.5);
+    font-size: 15px;
+}
+  
+.removingElement button {
+    display: block;
+    color: white;
+    margin: auto;
+    background-color: #D22B2B;
+    border: 2px solid #D22B2B;
+    border-radius:10px;
+    text-align: center;
+    padding:10px;
+    width: 150px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    font-weight : bold;
+}
+  
+.removingElement button:hover {
+    display: block;
+    color: white;
+    transition-duration: 0.3s;
+    border: 2px solid #A82222;
+    background-color: #A82222;
+}
+
+.removingElement select {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    margin-top: 20px;
+}
+  
+/* Styles for Upload SDF File Page Starts Here */
+.container2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+    width:750px;
+    padding: 15px 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:0 0 10px 3px rgba(191,191,191,0.5);
+}
+  
+.uploadingFile h2{
+    margin-top: 0px;
+    padding: 0px;
+}
+  
+.uploadingFile label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: arial, sans-serif;
+}
+  
+.uploadingFile input[type="text"] {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ddd;
+    border-radius:10px;
+    box-shadow:0 0 10px 3px rgba(191,191,191,0.5);
+    font-size: 15px;
+}
+  
+.uploadingFile input[type="file"] {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 15px;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius:10px;
+    box-shadow:0 0 10px 3px rgba(191,191,191,0.5);
+}
+  
+.uploadingFile button {
+    display: block;
+    color: white;
+    margin: auto;
+    background-color: #0257e5;
+    border: 2px solid #0257e5;
+    border-radius:10px;
+    text-align: center;
+    padding:10px;
+    width: 150px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    font-weight : bold;
+}
+  
+.uploadingFile button:hover {
+    background-color: #2978fc;
+    border: 2px solid #2978fc;
+    transition-duration: 0.3s;
+}
+
+/* Styles for Molecules List Page Starts Here */
+.container3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+    width:750px;
+    padding: 15px 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:0 0 10px 3px rgba(191,191,191,0.5);
+}
+
+.molList{
+    width: 50%;
+}
+
+.molList label{
+    display: block;
+    margin-bottom: 10px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.molList select {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.molList button {
+    display: block;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 30px;
+    background-color: #0257e5;
+    border: 2px solid #0257e5;
+    border-radius:10px;
+    text-align: center;
+    padding:10px;
+    width: 150px;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+    font-weight : bold;
+}
+
+.molList button:hover {
+    background-color: #2978fc;
+    border: 2px solid #2978fc;
+    transition-duration: 0.3s;
+}
+
+.molList h2 {
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+    color: black;
+}
+
+.displayContainer {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.molDisplay label {
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 15px;
+}
+
+.molDisplay #moleculeDisplayed{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.molDisplay select{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    margin-top: 8px;
+}
+
+.molDisplay #degSlider{
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
